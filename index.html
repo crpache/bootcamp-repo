@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Form</h1>
+  <form>
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <input type="text" placeholder="Nombre" />
+      <input type="text" placeholder="Apellido" />
+
+      <input type="number" placeholder="Edad" />
+
+      <br>
+
+      <input type="radio" id="option1" name="EstadoCivil" value="Soltero"/>
+      <label for="option1">Soltero</label>
+
+      <input type="radio" id="option2" name="EstadoCivil" value="Casado" />
+      <label for="option2">Casado</label>
+
+      <br>
+
+      <input type="checkbox" id="optionA" name="pizza"/>
+      <label for="optionA">Pizza</label>
+
+      <input type="checkbox" id="optionB" name="hamburgesa" />
+      <label for="optionB">Hamburgesa</label>
+
+      <input type="checkbox" id="optionC" name="empanada" />
+      <label for="optionC">Empanada</label>
+
+      <input type="checkbox" id="optionD" name="asado" />
+      <label for="optionD">Asado</label>
+
+      <br>
+      
+      <label for="pais">Pais</label>
+      <select name="pais">
+        <option value='argentina'>Argentina</option>
+        <option value='chile'>Chile</option>
+        <option value='brasil'>Brasil</option>
+        <option value='uruguay'>Uruguay</option>
+      </select>
+
+      <br>
+
+      <label for="nacimiento">Nacimiento</label>
+      <input id="nacimiento" name="nacimiento" type="date">
+    </fieldset>
+  </form>
+</body>
+</html>
